@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="677.0" prefWidth="1286.0" styleClass="timer-bkg" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hexa2zero.viwada_22.TimerScene" fx:id="mainVbox" onKeyPressed="#onBack">
+   <children>
+      <Label styleClass="image" />
+      <Label id="time" fx:id="time" prefHeight="180.0" prefWidth="450.0" styleClass="timer" text="5 : 00" alignment="CENTER">
+         <VBox.margin>
+            <Insets bottom="100.0" top="100.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER" prefWidth="200.0">
+         <children>
+            <Button id="start" fx:id="start" mnemonicParsing="false" onAction="#onStartClick" styleClass="functionButton" text="Start">
+               <HBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="stop" fx:id="stop" mnemonicParsing="false" onAction="#onStopClick" styleClass="functionButton" text="Stop">
+               <HBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="reset" fx:id="reset" mnemonicParsing="false" onAction="#onResetClick" styleClass="functionButton" text="Reset">
+               <HBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="min4" fx:id="min4" mnemonicParsing="false" onAction="#onFourMinClick" styleClass="functionButton" text="4 min">
+               <HBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="min5" fx:id="min5" mnemonicParsing="false" onAction="#onFiveMinClick" styleClass="functionButton" text="5 min">
+               <HBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefWidth="200.0">
+         <children>
+            <Button id="back1" fx:id="back1" mnemonicParsing="false" onAction="#onTeamOneBackClick" styleClass="backMoveButton">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Label id="team1" fx:id="team1" styleClass="team" />
+            <Button id="next1" fx:id="next1" mnemonicParsing="false" onAction="#onTeamOneNextClick" styleClass="nextMoveButton">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Label styleClass="vs" text="Vs">
+               <HBox.margin>
+                  <Insets left="50.0" right="50.0" />
+               </HBox.margin>
+            </Label>
+            <Button id="back2" fx:id="back2" mnemonicParsing="false" onAction="#onTeamTwoBackClick" styleClass="backMoveButton">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Label id="team2" fx:id="team2" styleClass="team" />
+            <Button id="next2" fx:id="next2" mnemonicParsing="false" onAction="#onTeamTwoNextClick" styleClass="nextMoveButton">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

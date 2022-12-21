@@ -1,0 +1,172 @@
+.start-bkg{
+     -fx-background-color:linear-gradient(#2155CD,#646FD4);
+}
+
+.timer-bkg{
+     -fx-background-color:#fff;
+}
+
+.textFields{
+    -fx-max-width:400px;
+    -fx-pref-width:370px;
+    -fx-pref-height:35px;
+    -fx-font-size:16px;
+    -fx-background-color:#ffffff00;
+    -fx-border-color:#fff;
+    -fx-border-width:1px;
+    -fx-text-fill:#fff;
+    -fx-border-radius:5px;
+    -fx-font-family: 'Raleway', sans-serif;
+}
+
+.duration{
+    -fx-font-size:18px;
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Raleway', sans-serif;
+}
+
+.nextButton{
+     -fx-background-radius:8px;
+     -fx-font-size:18px;
+     -fx-pref-width:100px;
+     -fx-pref-height:30px;
+     -fx-background-color:#E8630A;
+     -fx-text-fill:#fff;
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0 , 3, 3);
+     -fx-font-family: 'Raleway', sans-serif;
+ }
+
+.addButton{
+       -fx-background-radius:8px;
+       -fx-font-size:16px;
+       -fx-pref-width:80px;
+       -fx-pref-height:35px;
+       -fx-background-color:#36AE7C;
+       -fx-text-fill:#fff;
+       -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0 , 3, 3);
+       -fx-font-family: 'Raleway', sans-serif;
+}
+
+.teamNameList{
+    -fx-font-size:20px;
+    -fx-font-family:'Charm', cursive;
+    -fx-text-fill:#fff;
+}
+
+.timer{
+       -fx-font-size:150px;
+       -fx-font-family: sans-serif;
+       -fx-background-color:#ffffff50;
+       -fx-background-radius:5px;
+       -fx-text-fill:#25316D;
+}
+
+.functionButton{
+       -fx-background-radius:8px;
+       -fx-font-size:18px;
+       -fx-pref-width:100px;
+       -fx-pref-height:40px;
+       -fx-background-color:#36AE7C;
+       -fx-text-fill:#fff;
+       -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0 , 3, 3);
+       -fx-font-family: 'Raleway', sans-serif;
+}
+
+.nextButton:hover , .addButton:hover , .functionButton:hover{
+    -fx-background-color:#289672;
+    -fx-cursor:hand;
+}
+
+.backMoveButton{
+       -fx-pref-width:50px;
+       -fx-pref-height:50px;
+       -fx-background-image:url('navigation-back.png');
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 100% 100%;
+       -fx-background-color:#00000000;
+       -fx-opacity:0.1;
+}
+
+.nextMoveButton{
+       -fx-pref-width:50px;
+       -fx-pref-height:50px;
+       -fx-background-image:url('navigation-next.png');
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 100% 100%;
+       -fx-background-color:#00000000;
+       -fx-opacity:0.1;
+}
+
+.backMoveButton:hover , .nextMoveButton:hover{
+    -fx-cursor:hand;
+    -fx-opacity:1;
+}
+
+.vs{
+    -fx-font-size:50px;
+    -fx-font-family:'Charm', cursive;
+    -fx-text-fill:#25316D;
+}
+
+.team{
+    -fx-font-size:70px;
+    -fx-pref-width:500px;
+    -fx-font-family: 'Raleway', sans-serif;
+    -fx-text-fill:#25316D;
+    -fx-alignment:center;
+}
+
+.image{
+    -fx-pref-width:500px;
+    -fx-pref-height:300px;
+    -fx-background-image:url('viwada_logo.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+
+.transparent{
+    -fx-background-color:transparent;
+}
+.transparent:focused{
+    -fx-border-width:0px;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane {
+  -fx-background-color: transparent;
+}
+
+.scroll-bar .increment-button {
+  visibility: hidden;
+}
+
+.scroll-bar .decrement-button {
+  visibility: hidden;
+}
+
+.scroll-bar:vertical {
+  -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .track-background {
+  visibility: hidden;
+}
+
+.scroll-bar:vertical .track {
+  visibility: hidden;
+}
+
+.scroll-bar:vertical .thumb {
+  -fx-background-color: #EAF6F688;
+}
+
+.leftConner{
+    -fx-background-radius:20px 0 0 20px;
+}
+
+.rightConner{
+    -fx-background-radius:0 20px 20px 0;
+}

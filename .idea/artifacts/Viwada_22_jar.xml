@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Viwada 22:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Viwada_22_jar</output-path>
+    <root id="archive" name="Viwada 22.jar">
+      <element id="module-output" name="Viwada 22" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18-ea+6/javafx-graphics-18-ea+6-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-media/18-ea+6/javafx-media-18-ea+6-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/18-ea+6/javafx-fxml-18-ea+6-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-media/18-ea+6/javafx-media-18-ea+6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/18-ea+6/javafx-base-18-ea+6-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/18-ea+6/javafx-controls-18-ea+6-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/18-ea+6/javafx-controls-18-ea+6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/18-ea+6/javafx-base-18-ea+6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/18-ea+6/javafx-fxml-18-ea+6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/18-ea+6/javafx-graphics-18-ea+6.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-media:18-ea+6" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-media:win:18-ea+6" />
+    </root>
+  </artifact>
+</component>
